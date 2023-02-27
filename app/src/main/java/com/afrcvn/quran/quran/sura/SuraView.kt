@@ -37,7 +37,7 @@ fun SuraView(sura: Sura) {
             .fillMaxSize()
             .background(Color.Transparent)
     ){
-        LazyColumn {
+        LazyColumn(modifier = Modifier.padding(top = 45.dp)) {
             if (sura.id != 9) {
                 item {
                     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
@@ -58,20 +58,21 @@ fun SuraView(sura: Sura) {
                 }
             }
         }
+
         Box(
             modifier = Modifier
-                .background(MaterialTheme.colorScheme.background)
+                .background(Color.Transparent)
         ) {
             Text(
                 text = sura.name,
                 fontFamily = FontFamily(Font(R.font.me_quran)),
+                fontSize = 20.sp,
                 modifier = Modifier
-                    .padding(16.dp)
+                    .padding(5.dp)
                     .fillMaxWidth(),
                 textAlign = TextAlign.Center,
 
                 )
-
         }
     }
 }

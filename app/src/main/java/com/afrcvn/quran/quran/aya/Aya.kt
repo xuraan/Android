@@ -3,7 +3,7 @@ package com.afrcvn.quran.quran.aya
 import android.content.Context
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import com.afrcvn.helper.toArabicNumeral
+import com.afrcvn.quran.helper.toArabicNumeral
 import com.afrcvn.quran.R
 import com.afrcvn.quran.quran.QuranProvider
 import com.afrcvn.quran.quran.sura.Sura

@@ -46,6 +46,9 @@ object QuranProvider {
     fun sura(id: Int): Sura {
         return suras.get(index = id-1)
     }
+    fun sofha(id: Int): Sofha {
+        return sofhas.get(index = id-1)
+    }
 
     private inline fun <reified T : Any> loadJson(context: Context, resourceId: Int): T {
         val jsonString = context.resources.openRawResource(resourceId).bufferedReader().use { it.readText() }
