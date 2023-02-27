@@ -1,0 +1,572 @@
+[
+  {
+    "id": 1,
+    "name": "الفاتحة",
+    "phonetic": "Al-Faatiha"
+  },
+  {
+    "id": 2,
+    "name": "البقرة",
+    "phonetic": "Al-Baqara"
+  },
+  {
+    "id": 3,
+    "name": "آل عمران",
+    "phonetic": "Aal-i-Imraan"
+  },
+  {
+    "id": 4,
+    "name": "النساء",
+    "phonetic": "An-Nisaa"
+  },
+  {
+    "id": 5,
+    "name": "المائدة",
+    "phonetic": "Al-Maaida"
+  },
+  {
+    "id": 6,
+    "name": "الأنعام",
+    "phonetic": "Al-An'aam"
+  },
+  {
+    "id": 7,
+    "name": "الأعراف",
+    "phonetic": "Al-A'raaf"
+  },
+  {
+    "id": 8,
+    "name": "الأنفال",
+    "phonetic": "Al-Anfaal"
+  },
+  {
+    "id": 9,
+    "name": "التوبة",
+    "phonetic": "At-Tawba"
+  },
+  {
+    "id": 10,
+    "name": "يونس",
+    "phonetic": "Yunus"
+  },
+  {
+    "id": 11,
+    "name": "هود",
+    "phonetic": "Hud"
+  },
+  {
+    "id": 12,
+    "name": "يوسف",
+    "phonetic": "Yusuf"
+  },
+  {
+    "id": 13,
+    "name": "الرعد",
+    "phonetic": "Ar-Ra'd"
+  },
+  {
+    "id": 14,
+    "name": "ابراهيم",
+    "phonetic": "Ibrahim"
+  },
+  {
+    "id": 15,
+    "name": "الحجر",
+    "phonetic": "Al-Hijr"
+  },
+  {
+    "id": 16,
+    "name": "النحل",
+    "phonetic": "An-Nahl"
+  },
+  {
+    "id": 17,
+    "name": "الإسراء",
+    "phonetic": "Al-Israa"
+  },
+  {
+    "id": 18,
+    "name": "الكهف",
+    "phonetic": "Al-Kahf"
+  },
+  {
+    "id": 19,
+    "name": "مريم",
+    "phonetic": "Maryam"
+  },
+  {
+    "id": 20,
+    "name": "طه",
+    "phonetic": "Taa-Haa"
+  },
+  {
+    "id": 21,
+    "name": "الأنبياء",
+    "phonetic": "Al-Anbiyaa"
+  },
+  {
+    "id": 22,
+    "name": "الحج",
+    "phonetic": "Al-Hajj"
+  },
+  {
+    "id": 23,
+    "name": "المؤمنون",
+    "phonetic": "Al-Muminoon"
+  },
+  {
+    "id": 24,
+    "name": "النور",
+    "phonetic": "An-Noor"
+  },
+  {
+    "id": 25,
+    "name": "الفرقان",
+    "phonetic": "Al-Furqaan"
+  },
+  {
+    "id": 26,
+    "name": "الشعراء",
+    "phonetic": "Ash-Shu'araa"
+  },
+  {
+    "id": 27,
+    "name": "النمل",
+    "phonetic": "An-Naml"
+  },
+  {
+    "id": 28,
+    "name": "القصص",
+    "phonetic": "Al-Qasas"
+  },
+  {
+    "id": 29,
+    "name": "العنكبوت",
+    "phonetic": "Al-Ankaboot"
+  },
+  {
+    "id": 30,
+    "name": "الروم",
+    "phonetic": "Ar-Room"
+  },
+  {
+    "id": 31,
+    "name": "لقمان",
+    "phonetic": "Luqman"
+  },
+  {
+    "id": 32,
+    "name": "السجدة",
+    "phonetic": "As-Sajda"
+  },
+  {
+    "id": 33,
+    "name": "الأحزاب",
+    "phonetic": "Al-Ahzaab"
+  },
+  {
+    "id": 34,
+    "name": "سبإ",
+    "phonetic": "Saba"
+  },
+  {
+    "id": 35,
+    "name": "فاطر",
+    "phonetic": "Faatir"
+  },
+  {
+    "id": 36,
+    "name": "يس",
+    "phonetic": "Yaseen"
+  },
+  {
+    "id": 37,
+    "name": "الصافات",
+    "phonetic": "As-Saaffaat"
+  },
+  {
+    "id": 38,
+    "name": "ص",
+    "phonetic": "Saad"
+  },
+  {
+    "id": 39,
+    "name": "الزمر",
+    "phonetic": "Az-Zumar"
+  },
+  {
+    "id": 40,
+    "name": "غافر",
+    "phonetic": "Ghafir"
+  },
+  {
+    "id": 41,
+    "name": "فصلت",
+    "phonetic": "Fussilat"
+  },
+  {
+    "id": 42,
+    "name": "الشورى",
+    "phonetic": "Ash-Shura"
+  },
+  {
+    "id": 43,
+    "name": "الزخرف",
+    "phonetic": "Az-Zukhruf"
+  },
+  {
+    "id": 44,
+    "name": "الدخان",
+    "phonetic": "Ad-Dukhaan"
+  },
+  {
+    "id": 45,
+    "name": "الجاثية",
+    "phonetic": "Al-Jaathiya"
+  },
+  {
+    "id": 46,
+    "name": "الأحقاف",
+    "phonetic": "Al-Ahqaf"
+  },
+  {
+    "id": 47,
+    "name": "محمد",
+    "phonetic": "Muhammad"
+  },
+  {
+    "id": 48,
+    "name": "الفتح",
+    "phonetic": "Al-Fath"
+  },
+  {
+    "id": 49,
+    "name": "الحجرات",
+    "phonetic": "Al-Hujuraat"
+  },
+  {
+    "id": 50,
+    "name": "ق",
+    "phonetic": "Qaaf"
+  },
+  {
+    "id": 51,
+    "name": "الذاريات",
+    "phonetic": "Adh-Dhaariyat"
+  },
+  {
+    "id": 52,
+    "name": "الطور",
+    "phonetic": "At-Tur"
+  },
+  {
+    "id": 53,
+    "name": "النجم",
+    "phonetic": "An-Najm"
+  },
+  {
+    "id": 54,
+    "name": "القمر",
+    "phonetic": "Al-Qamar"
+  },
+  {
+    "id": 55,
+    "name": "الرحمن",
+    "phonetic": "Ar-Rahmaan"
+  },
+  {
+    "id": 56,
+    "name": "الواقعة",
+    "phonetic": "Al-Waaqia"
+  },
+  {
+    "id": 57,
+    "name": "الحديد",
+    "phonetic": "Al-Hadid"
+  },
+  {
+    "id": 58,
+    "name": "المجادلة",
+    "phonetic": "Al-Mujaadila"
+  },
+  {
+    "id": 59,
+    "name": "الحشر",
+    "phonetic": "Al-Hashr"
+  },
+  {
+    "id": 60,
+    "name": "الممتحنة",
+    "phonetic": "Al-Mumtahana"
+  },
+  {
+    "id": 61,
+    "name": "الصف",
+    "phonetic": "As-Saff"
+  },
+  {
+    "id": 62,
+    "name": "الجمعة",
+    "phonetic": "Al-Jumu'a"
+  },
+  {
+    "id": 63,
+    "name": "المنافقون",
+    "phonetic": "Al-Munaafiqoon"
+  },
+  {
+    "id": 64,
+    "name": "التغابن",
+    "phonetic": "At-Taghaabun"
+  },
+  {
+    "id": 65,
+    "name": "الطلاق",
+    "phonetic": "At-Talaaq"
+  },
+  {
+    "id": 66,
+    "name": "التحريم",
+    "phonetic": "At-Tahrim"
+  },
+  {
+    "id": 67,
+    "name": "الملك",
+    "phonetic": "Al-Mulk"
+  },
+  {
+    "id": 68,
+    "name": "القلم",
+    "phonetic": "Al-Qalam"
+  },
+  {
+    "id": 69,
+    "name": "الحاقة",
+    "phonetic": "Al-Haaqqa"
+  },
+  {
+    "id": 70,
+    "name": "المعارج",
+    "phonetic": "Al-Ma'aarij"
+  },
+  {
+    "id": 71,
+    "name": "نوح",
+    "phonetic": "Nooh"
+  },
+  {
+    "id": 72,
+    "name": "الجن",
+    "phonetic": "Al-Jinn"
+  },
+  {
+    "id": 73,
+    "name": "المزمل",
+    "phonetic": "Al-Muzzammil"
+  },
+  {
+    "id": 74,
+    "name": "المدثر",
+    "phonetic": "Al-Muddaththir"
+  },
+  {
+    "id": 75,
+    "name": "القيامة",
+    "phonetic": "Al-Qiyaama"
+  },
+  {
+    "id": 76,
+    "name": "الانسان",
+    "phonetic": "Al-Insaan"
+  },
+  {
+    "id": 77,
+    "name": "المرسلات",
+    "phonetic": "Al-Mursalaat"
+  },
+  {
+    "id": 78,
+    "name": "النبإ",
+    "phonetic": "An-Naba"
+  },
+  {
+    "id": 79,
+    "name": "النازعات",
+    "phonetic": "An-Naazi'aat"
+  },
+  {
+    "id": 80,
+    "name": "عبس",
+    "phonetic": "Abasa"
+  },
+  {
+    "id": 81,
+    "name": "التكوير",
+    "phonetic": "At-Takwir"
+  },
+  {
+    "id": 82,
+    "name": "الإنفطار",
+    "phonetic": "Al-Infitaar"
+  },
+  {
+    "id": 83,
+    "name": "المطففين",
+    "phonetic": "Al-Mutaffifin"
+  },
+  {
+    "id": 84,
+    "name": "الإنشقاق",
+    "phonetic": "Al-Inshiqaaq"
+  },
+  {
+    "id": 85,
+    "name": "البروج",
+    "phonetic": "Al-Burooj"
+  },
+  {
+    "id": 86,
+    "name": "الطارق",
+    "phonetic": "At-Taariq"
+  },
+  {
+    "id": 87,
+    "name": "الأعلى",
+    "phonetic": "Al-A'laa"
+  },
+  {
+    "id": 88,
+    "name": "الغاشية",
+    "phonetic": "Al-Ghaashiya"
+  },
+  {
+    "id": 89,
+    "name": "الفجر",
+    "phonetic": "Al-Fajr"
+  },
+  {
+    "id": 90,
+    "name": "البلد",
+    "phonetic": "Al-Balad"
+  },
+  {
+    "id": 91,
+    "name": "الشمس",
+    "phonetic": "Ash-Shams"
+  },
+  {
+    "id": 92,
+    "name": "الليل",
+    "phonetic": "Al-Lail"
+  },
+  {
+    "id": 93,
+    "name": "الضحى",
+    "phonetic": "Ad-Dhuhaa"
+  },
+  {
+    "id": 94,
+    "name": "الشرح",
+    "phonetic": "Ash-Sharh"
+  },
+  {
+    "id": 95,
+    "name": "التين",
+    "phonetic": "At-Tin"
+  },
+  {
+    "id": 96,
+    "name": "العلق",
+    "phonetic": "Al-Alaq"
+  },
+  {
+    "id": 97,
+    "name": "القدر",
+    "phonetic": "Al-Qadr"
+  },
+  {
+    "id": 98,
+    "name": "البينة",
+    "phonetic": "Al-Bayyina"
+  },
+  {
+    "id": 99,
+    "name": "الزلزلة",
+    "phonetic": "Az-Zalzala"
+  },
+  {
+    "id": 100,
+    "name": "العاديات",
+    "phonetic": "Al-Aadiyaat"
+  },
+  {
+    "id": 101,
+    "name": "القارعة",
+    "phonetic": "Al-Qaari'a"
+  },
+  {
+    "id": 102,
+    "name": "التكاثر",
+    "phonetic": "At-Takaathur"
+  },
+  {
+    "id": 103,
+    "name": "العصر",
+    "phonetic": "Al-Asr"
+  },
+  {
+    "id": 104,
+    "name": "الهمزة",
+    "phonetic": "Al-Humaza"
+  },
+  {
+    "id": 105,
+    "name": "الفيل",
+    "phonetic": "Al-Fil"
+  },
+  {
+    "id": 106,
+    "name": "قريش",
+    "phonetic": "Quraish"
+  },
+  {
+    "id": 107,
+    "name": "الماعون",
+    "phonetic": "Al-Maa'un"
+  },
+  {
+    "id": 108,
+    "name": "الكوثر",
+    "phonetic": "Al-Kawthar"
+  },
+  {
+    "id": 109,
+    "name": "الكافرون",
+    "phonetic": "Al-Kaafiroon"
+  },
+  {
+    "id": 110,
+    "name": "النصر",
+    "phonetic": "An-Nasr"
+  },
+  {
+    "id": 111,
+    "name": "المسد",
+    "phonetic": "Al-Masad"
+  },
+  {
+    "id": 112,
+    "name": "الإخلاص",
+    "phonetic": "Al-Ikhlaas"
+  },
+  {
+    "id": 113,
+    "name": "الفلق",
+    "phonetic": "Al-Falaq"
+  },
+  {
+    "id": 114,
+    "name": "الناس",
+    "phonetic": "An-Naas"
+  }
+]
