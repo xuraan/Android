@@ -1,16 +1,17 @@
 package com.afrcvn.quran.quran.sura
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.runtime.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.blur
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
@@ -29,15 +30,12 @@ import com.afrcvn.quran.ui.theme.QuranTheme
 
 @Composable
 fun SuraView(sura: Sura) {
-//    val scrollState = rememberLazyListState()
-
-//    val lastVisibleItemIndex = scrollState.layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: 0
-    Box(
+     Box(
         modifier = Modifier
             .fillMaxSize()
             .background(Color.Transparent)
     ){
-        LazyColumn(modifier = Modifier.padding(top = 45.dp)) {
+        LazyColumn(modifier = Modifier.padding(top = 0.dp)) {
             if (sura.id != 9) {
                 item {
                     CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
@@ -49,7 +47,9 @@ fun SuraView(sura: Sura) {
                             lineHeight = 50.sp,
                             modifier = Modifier
                                 .fillMaxWidth()
-                        )                }
+                                .padding(top = 60.dp)
+                        )
+                    }
                 }
             }
             sura.ayas?.let { ayas ->
@@ -66,7 +66,7 @@ fun SuraView(sura: Sura) {
             Text(
                 text = sura.name,
                 fontFamily = FontFamily(Font(R.font.me_quran)),
-                fontSize = 20.sp,
+                fontSize = 25.sp,
                 modifier = Modifier
                     .padding(5.dp)
                     .fillMaxWidth(),

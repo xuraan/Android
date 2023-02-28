@@ -1,6 +1,7 @@
 package com.afrcvn.quran.quran.sura
 
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import com.afrcvn.quran.quran.QuranProvider
@@ -11,11 +12,11 @@ import com.google.accompanist.pager.rememberPagerState
 
 @OptIn(ExperimentalPagerApi::class)
 @Composable
-fun SuraPages() {
+fun SuraPages(modifier: Modifier = Modifier) {
     val pageCount = 114
     val startIndex = Int.MAX_VALUE / 2
     val pagerState = rememberPagerState(initialPage = startIndex)
-    HorizontalPager(count = Int.MAX_VALUE, state = pagerState) { index ->
+    HorizontalPager(count = Int.MAX_VALUE, state = pagerState, modifier = modifier) { index ->
         val page = (index - startIndex).floorMod(pageCount)
         SuraView(sura = QuranProvider.sura(pageCount-page))
     }
