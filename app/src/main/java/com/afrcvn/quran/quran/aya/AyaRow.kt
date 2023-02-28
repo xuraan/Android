@@ -9,10 +9,8 @@ import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.LayoutDirection
-import com.afrcvn.quran.Greeting
 import com.afrcvn.quran.R
 import com.afrcvn.quran.quran.QuranProvider
 import com.afrcvn.quran.ui.theme.QuranTheme

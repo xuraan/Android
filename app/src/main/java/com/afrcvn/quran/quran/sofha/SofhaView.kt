@@ -13,6 +13,9 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
+import com.afrcvn.quran.LocalQuranModel
+import com.afrcvn.quran.component.LocalHideCoverOverlays
+import com.afrcvn.quran.component.LocalShowHideCoverOverlays
 import com.afrcvn.quran.quran.QuranProvider
 import com.afrcvn.quran.quran.aya.AyaView
 import com.afrcvn.quran.ui.theme.QuranTheme
@@ -22,23 +25,27 @@ fun SofhaView(
     sofha: Sofha
 ) {
     val context = LocalContext.current
+    val hideCoverOverlays = LocalHideCoverOverlays.current
+    val showCoverOverlays = LocalShowHideCoverOverlays.current
+    val qModel = LocalQuranModel.current
+
     val resourceId = context.resources.getIdentifier(
         "p${sofha.id}", "drawable", context.packageName
     )
     val painter = painterResource(resourceId)
-    var isFit by remember { mutableStateOf(true) }
 
     Box(modifier = Modifier){
         Image(
             painter = painter,
             contentDescription = "sofha",
-            contentScale = if (isFit) ContentScale.Fit else ContentScale.FillBounds ,
+            contentScale = if (qModel.pageVIsFit) ContentScale.Fit else ContentScale.FillBounds ,
             modifier = Modifier
                 .fillMaxSize()
                 .clickable {
-                    isFit  = !isFit
+                    qModel.pageVIsFit  = !qModel.pageVIsFit
+                    if (qModel.pageVIsFit) showCoverOverlays() else hideCoverOverlays()
                 }
-                .scale(scaleX = if (isFit) 1f else 1.1f, scaleY = 1f)
+                .scale(scaleX = if (qModel.pageVIsFit) 1f else 1.1f, scaleY = 1f)
         )
     }
 }
