@@ -31,23 +31,23 @@ fun SuraList(suras: List<Sura> = QuranProvider.suras) {
                 .background(MaterialTheme.colorScheme.background)
                 .alpha(0.5f)
             ) {
-                Text(text = "Rank", modifier = Modifier.padding(end = 5.dp), fontSize = 15.sp)
+                Text(text = "Rank", modifier = Modifier.padding(end = 5.dp), fontSize = 12.sp)
                 Text(
                     text = "Phonetic",
                     modifier = Modifier
                         .weight(1f)
                 ,
-                    fontSize = 15.sp
+                    fontSize = 12.sp
                 )
                 Text(
                     text = "Translation",
-                    fontSize = 15.sp,
+                    fontSize = 12.sp,
                     modifier = Modifier
                         .weight(1f)
                 )
                 Text(
                     text = "Surah",
-                    fontSize = 15.sp,
+                    fontSize = 12.sp,
                     modifier = Modifier
                         .weight(1f)
                     ,
