@@ -1,5 +1,6 @@
 package com.afrcvn.quran.component
 
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -49,6 +50,7 @@ fun Container(
     fun hideCoverOverlays(){ isShowCoverOverlays = false  }
     fun showCoverOverlays(){ isShowCoverOverlays = true  }
     val context = LocalContext.current
+
     CompositionLocalProvider(
         LocalShowCover provides { showCover() },
         LocalHideCover provides { hideCover()},
@@ -60,9 +62,9 @@ fun Container(
                 modifier = Modifier
                     .zIndex(1f)
                     .blur(if (isCoverShow) 30.dp else 0.dp)
-
             ){
                 Scaffold(
+
                     topBar = {
                         MediumTopAppBar(
                             title = {
@@ -126,7 +128,6 @@ fun Container(
                     modifier = Modifier
                         .align(Alignment.BottomEnd)
                         .zIndex(1f)
-
                 ) {
                     ShapeButton(
                         action = showCover,
@@ -154,22 +155,25 @@ fun Container(
                 }
             }
 
+
             Box(
                 modifier = Modifier
                     .background(color = Color.Transparent)
-                    .alpha(if (isCoverShow) 1f else 0f)
                     .zIndex(if (isCoverShow) 2f else 0f)
             ) {
-                cover()
-                ShapeButton(
-                    modifier = Modifier
-                        .align(Alignment.TopEnd)
-                    ,
-                    action = hideCover,
-                    imageVector = Icons.Filled.Close,
-                    margin = PaddingValues(15.dp),
-                    alpha = if (isShowCoverOverlays) 1f else 0f
-                )
+                AnimatedVisibility(visible = isCoverShow) {
+                    cover()
+                    AnimatedVisibility(visible = isShowCoverOverlays) {
+                        ShapeButton(
+                            modifier = Modifier
+                                .align(Alignment.TopEnd)
+                            ,
+                            action = hideCover,
+                            imageVector = Icons.Filled.Close,
+                            margin = PaddingValues(15.dp),
+                        )
+                    }
+                }
             }
         }
     }

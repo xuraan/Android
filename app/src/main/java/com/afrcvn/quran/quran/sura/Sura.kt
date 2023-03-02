@@ -1,5 +1,6 @@
 package com.afrcvn.quran.quran.sura
 
+import com.afrcvn.quran.R
 import com.afrcvn.quran.quran.QuranProvider
 import kotlinx.serialization.Serializable
 

@@ -24,4 +24,5 @@ data class Aya(
     val textWithEndAya: String = "${text}\uFD3F${number.toString().toArabicNumeral()}\uFD3E"
     val sura: Sura
         get() = QuranProvider.suras[suraID-1]
+    var secondaryID: String = "${suraID}:${number}"
 }

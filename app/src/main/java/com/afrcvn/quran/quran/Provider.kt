@@ -14,12 +14,14 @@ object QuranProvider {
     fun initialize(context: Context) {
         ayas = loadJson(context, R.raw.ayas)
         suras = loadJson(context, R.raw.suras)
+        sofhas = (1..604).map { Sofha(it) }
+        hizbs = (1..60).map { Hizb(it) }
     }
 
     var ayas: List<Aya> = listOf()
     var suras: List<Sura> = listOf()
-    var sofhas: List<Sofha> = (1..604).map { Sofha(it) }
-    var hizbs: List<Hizb> = (1..60).map { Hizb(it) }
+    var sofhas: List<Sofha> = listOf()
+    var hizbs: List<Hizb> = listOf()
 
     val ayasBySura: Map<Int, List<Aya>> by lazy { ayas.groupBy { it.suraID } }
     val ayasBySofha: Map<Int, List<Aya>> by lazy { ayas.groupBy { it.sofhaID } }
